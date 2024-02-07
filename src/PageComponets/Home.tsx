@@ -4,35 +4,25 @@ import { CardProperties } from "../componentsPage/Card";
 import { Footer } from "./Footer";
 import { Whoweare } from "@/componentsPage/whowe-are";
 import { NavBar } from "@/componentsPage/NavBar";
-import Typewriter from "@/componentsPage/tyingtext";
 import { Reasons } from "@/componentsPage/reasons";
 export const Home = () => {
   return (
-    <div className="overflowx-hidden">
+    <div className="overflowx-hidden bg-slate-white">
       <NavBar />
-      <div className="max-w-[1400px] mx-auto  mt-[10px]">
-        <div className="lg:flex justify-between items-center lg:ml-10">
-          <div>
-          <h1 className="lg:hidden text-[1.5rem] md:text-[2rem] tracking-[1px] font-[700] text-center px-4">
-              <span className="text-[30px]">FairTrade</span> <br />
-              <Typewriter
-                text="is a Decentralized  secure online payment"
-                delay={300}
-              />{" "}
-              <br /> processing escrow system built with Blockchain Technology
+      <div className="max-w-[1200px] mx-auto  mt-[10px]">
+        <div className="lg:flex justify-between items-cente lg:mx-10">
+          <div className="max-w-screen-md mt-10">
+            <h1 className=" text-[1.5rem]  tracking-[1px] font-[500] text-center lg:leading-[54px] lg:text-left px-4 lg:px-0 text-[#1C1F30]">
+              FairTrade is a Decentralized payment dapp
+              <br />
+              escrow system built with Blockchain Technology
             </h1>
-            <h1 className="hidden lg:block text-[2rem] tracking-[1px] font-[400]">
-              <span className="text-4xl text-[#752938]">FairTrade</span> <br />
-              <Typewriter
-                text="is a Decentralized  secure online payment"
-                delay={300}
-              />{" "}
-              <br /> processing escrow system built with Blockchain Technology
-            </h1>
+
             <div className="pt-6">
               <p className=" tracking-[2px] text-[16px] text-xl text-center lg:text-left text-[#333]">
-                We safeguard both buyer and seller,from frud by ensuring  all funds transacted using
-                FairTrade are kept in trust and safe using latest blockchain technology
+                We safeguard both buyer and seller,from fraud by ensuring all
+                funds transacted using FairTrade are kept in an escrow build using the
+                latest blockchain technology
               </p>
             </div>
 
@@ -52,22 +42,22 @@ export const Home = () => {
             />
           </div>
         </div>
-        <div className="mt-9 g:ml-10">
-          <h1 className="text-center text-3xl text-[#1891CA]">How FairTrade Works</h1>
+        <div className="mt-9">
+          <h1 className="text-center text-3xl text-[#1891CA]">
+            How FairTrade Works
+          </h1>
           <CardProperties />
         </div>
         <Whoweare />
         <div className="my-9 zg mx-4">
-          
           <h4 className="text-center text-blue-300 text-2xl pb-7 pt-4">
-            What Choose Us
+            Whay Choose Us
           </h4>
-          
-          <Reasons/>
+
+          <Reasons />
         </div>
         <div className="flex flex-col items-center my-[70px]">
-          <h1 className="my-4">Ready to explore the of FairTrade Escrow</h1>
-          <p className="mt-6"></p>
+          <p className="my-4">Ready to explore the  FairTrade Escrow System</p>
           <Button variant="secondary">Get Started With FairTrade</Button>
         </div>
       </div>

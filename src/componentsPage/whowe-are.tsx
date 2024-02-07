@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import fair from "../assets/fair.png";
 export const Whoweare = () => {
   return (
-    <div className="who  max-w-[1400px] mx-auto z-1">
+    <div className="who  max-w-[1200px] mx-auto z-1">
       <div className="flex flex-col lg:flex-row h-[560px] md:h-[500px] lg:h-[600px] px-2 lg:px-0 lg:justify-between lg:mx-10  ">
         <img
           src={fair}

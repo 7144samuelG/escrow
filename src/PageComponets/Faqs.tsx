@@ -9,7 +9,7 @@ export const FAQs = () => {
       <NavBar />
       <div
         className={cn(
-          "flex flex-col  max-w-[1400px] mx-auto  pb-4 para h1 pt-[10px] mb-[100px]"
+          "flex flex-col  max-w-[1200px] mx-auto  pb-4 para h1 pt-[10px] mb-[100px]"
         )}
       >
         <h2 className="text-center text-[#752938] text-[45px] md:text-[54px] font-[400] mb-[20px]">

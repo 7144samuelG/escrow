@@ -7,7 +7,7 @@ export const AboutUs = () => {
     <div>
       <NavBar />
 
-      <div className="max-w-[1400px] mx-auto mt-[10px] mb-[70px] ">
+      <div className="max-w-[1200px] mx-auto mt-[10px] mb-[70px] ">
         <h1 className="text-center text-[#752938] text-[45px] md:text-[54px] font-[400] mb-[20px] ">
           About FairTrade
         </h1>

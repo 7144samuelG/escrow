@@ -7,7 +7,7 @@ export const Privancy = () => {
   return (
     <div>
       <NavBar />
-      <div className="max-w-[1400px] mx-auto mb-[10px] mt-[120px]">
+      <div className="max-w-[1200px] mx-auto mb-[10px] mt-[10px]">
         <h1 className="text-center text-[#752938] text-[54px] font-[400] mb-[20px] ">
           Privancy Policy
         </h1>

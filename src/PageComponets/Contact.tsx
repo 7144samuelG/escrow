@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <div>
       <NavBar />
-      <div className="max-w-[1400px] mx-auto mt-[10px] mb-[150px]">
+      <div className="max-w-[1200px] mx-auto mt-[10px] mb-[150px]">
         <div className="w-full h-[670px] contact flex justify-center items-center">
           <h1 className="text-center text-[6rem] text-white font-[700] ">
             We are Here to for You
