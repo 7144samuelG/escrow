@@ -10,8 +10,8 @@ export const Home = () => {
   return (
     <div className="overflowx-hidden">
       <NavBar />
-      <div className="max-w-[1200px] mx-auto  mt-[100px]">
-        <div className="lg:flex justify-between items-center">
+      <div className="max-w-[1400px] mx-auto  mt-[10px]">
+        <div className="lg:flex justify-between items-center lg:ml-10">
           <div>
           <h1 className="lg:hidden text-[1.5rem] md:text-[2rem] tracking-[1px] font-[700] text-center px-4">
               <span className="text-[30px]">FairTrade</span> <br />
@@ -31,8 +31,8 @@ export const Home = () => {
             </h1>
             <div className="pt-6">
               <p className=" tracking-[2px] text-[16px] text-xl text-center lg:text-left text-[#333]">
-                We safeguard both buyer and seller, all funds transacted using
-                FairTrade are kept in trust
+                We safeguard both buyer and seller,from frud by ensuring  all funds transacted using
+                FairTrade are kept in trust and safe using latest blockchain technology
               </p>
             </div>
 
@@ -52,8 +52,8 @@ export const Home = () => {
             />
           </div>
         </div>
-        <div className="mt-9">
-          <h1 className="text-center text-4xl font-extrabold">How It Works</h1>
+        <div className="mt-9 g:ml-10">
+          <h1 className="text-center text-3xl text-[#1891CA]">How FairTrade Works</h1>
           <CardProperties />
         </div>
         <Whoweare />
@@ -66,7 +66,8 @@ export const Home = () => {
           <Reasons/>
         </div>
         <div className="flex flex-col items-center my-[70px]">
-          <p className="my-4">Ready to explore the power of FairTrade Escrow</p>
+          <h1 className="my-4">Ready to explore the of FairTrade Escrow</h1>
+          <p className="mt-6"></p>
           <Button variant="secondary">Get Started With FairTrade</Button>
         </div>
       </div>

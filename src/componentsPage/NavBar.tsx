@@ -15,7 +15,7 @@ export const NavBar = () => {
     <div
       ref={ref}
       className={cn(
-        "max-w-[1400px] mx-auto px-3 mb-3 fixed top-0 left-0 right-0 pb-6 bg-background z-1000 zh overflowx-hidden",
+        "max-w-[1400px] mx-auto px-3 mb-3 pb-6 bg-background z-1000 zh overflowx-hidden",
         scrolled && "border-b "
       )}
     >

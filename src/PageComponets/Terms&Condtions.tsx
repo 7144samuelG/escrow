@@ -7,7 +7,7 @@ export const TermaConditions = () => {
   return (
     <div>
       <NavBar />
-      <div className="max-w-[1200px] mx-auto mt-[120px] mb-[100px] px-[30px]">
+      <div className="max-w-[1400px] mx-auto mt-[10px] mb-[100px] px-[30px]">
         <h1 className="text-center text-[#752938] text-[54px] font-[400] mb-[20px]">
           Terms & Conditions
         </h1>

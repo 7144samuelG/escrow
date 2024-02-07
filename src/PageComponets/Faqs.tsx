@@ -9,26 +9,26 @@ export const FAQs = () => {
       <NavBar />
       <div
         className={cn(
-          "flex flex-col  max-w-[1200px] mx-auto  pb-4 para h1 pt-[120px] mb-[100px]"
+          "flex flex-col  max-w-[1400px] mx-auto  pb-4 para h1 pt-[10px] mb-[100px]"
         )}
       >
-        <h2 className="text-center text-[#752938] text-[45px] md:text-[54px] font-[400] mb-[20px] ">
+        <h2 className="text-center text-[#752938] text-[45px] md:text-[54px] font-[400] mb-[20px]">
           Most Frequently Asked Questions
         </h2>
-        <div className="flex items-center  mas mb-7 px-4">
+        <div className="flex items-center  mas mb-7 px-6">
           <div className="border-b-2 flex-1" />
           <Diamond />
           <div className="border-b-2 flex-1" />
         </div>
         <h1 className="">What is FairTrade system?</h1>
-        <p className={cn(" para px-4")}>
+        <p className={cn(" para px-6")}>
           Is an online secure financial arrangement where a third party holds
           and regulates payment of funds between two parties involved in a
           transaction. It ensures that both parties meet their obligations
           before the funds are released.
         </p>
-        <h1> How does an FairTrade</h1>{" "}
-        <p>
+        <h1 className=""> How does an FairTrade</h1>{" "}
+        <p >
           {" "}
           The buyer and seller agree to the terms of the transaction. The buyer
           then deposits the funds into the escrow account. The seller is

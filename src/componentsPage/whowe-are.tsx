@@ -2,8 +2,8 @@ import { cn } from "@/lib/utils";
 import fair from "../assets/fair.png";
 export const Whoweare = () => {
   return (
-    <div className="who  max-w-[1200px] mx-auto z-1">
-      <div className="flex flex-col lg:flex-row h-[560px] md:h-[500px] lg:h-[600px] px-2 lg:px-0 lg:justify-between   ">
+    <div className="who  max-w-[1400px] mx-auto z-1">
+      <div className="flex flex-col lg:flex-row h-[560px] md:h-[500px] lg:h-[600px] px-2 lg:px-0 lg:justify-between lg:mx-10  ">
         <img
           src={fair}
           width={300}
@@ -12,7 +12,7 @@ export const Whoweare = () => {
         />
         <div className={cn("text-white pt-[100px] w-full lg:w-1/2")}>
           <h1 className=" text-3xl py-4">Who we are?</h1>
-          <p className="mt-4 tracking-[2px] text-left ">
+          <p className="mt-4 tracking-[2px] ">
             FairTrade is an online secure financial arrangement where a third party holds
             and regulates payment of funds between two parties involved in a
             transaction. It ensures that both parties meet their obligations
