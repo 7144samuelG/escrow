@@ -93,7 +93,7 @@ export const Footer = () => {
             About FairTrade
           </h1>
           <div className="flex flex-col mt-4 items-center lg:items-start">
-            <Link to="" className="mb-4">
+            <Link to="/" className="mb-4">
               Home
             </Link>
             <Link to="/about-us">About Us</Link>

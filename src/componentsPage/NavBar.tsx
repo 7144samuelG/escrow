@@ -1,11 +1,10 @@
-
+import { Button } from "@/components/ui/button";
 import { useScrollTop } from "@/hooks/use-scroll";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useRef, useState } from "react";
 import { useClickAway } from "react-use";
-import { Button } from "@/components/ui/button";
 export const NavBar = () => {
   const scrolled = useScrollTop();
   const [isOpen, setIsOpen] = useState(false);
@@ -15,12 +14,12 @@ export const NavBar = () => {
     <div
       ref={ref}
       className={cn(
-        "max-w-[1400px] mx-auto px-3 mb-3 pb-6 bg-background z-1000 zh overflowx-hidden",
+        " mx-4 px-3 mb-3  pb-6 z-1000 zh overflowx-hidden",
         scrolled && "border-b "
       )}
     >
       <div className="  w-full pt-6  ">
-        <div className="flex items-center justify-between z-5000  ">
+        <div className={cn("flex items-center justify-between z-5000 text-blue-500 ")}>
           <Link to="/">
             <h1 className="text-yellow-300 text-4xl font-[900] mb-4">
               Fair<span className="text-yellow-800">Trade</span>
@@ -31,21 +30,23 @@ export const NavBar = () => {
               About Us
             </Link>
             <Link to="/contact-us" className="text-xl font-bold">
-              Contact
+              Contact-Us
             </Link>
             <Link to="/faqs" className="text-xl font-bold">
               FAQs
             </Link>
-            <Button variant="primary">Get Started</Button>
           </div>
-          <div className="lg:hidden">
+          <div className="hidden lg:block">
+          <Button variant="primary">Get Started</Button>
+            </div>
+          <div className="lg:hidden zh">
             {isOpen ? (
               <X onClick={() => setIsOpen(!isOpen)} />
             ) : (
               <Menu onClick={() => setIsOpen(!isOpen)} />
             )}
             {isOpen && (
-              <div className="border-b rounded-md h-[300px] absolute right-0 left-0 top-[100px] bg-white">
+              <div className="border-b rounded-md h-[300px] absolute right-0 left-0 top-[100px] bg-white z-10000">
                 <div className="flex flex-col space-y-4 mt-4 px-4">
                   <Link
                     to="/"

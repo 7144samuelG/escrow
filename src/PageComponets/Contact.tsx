@@ -3,11 +3,12 @@ import { NavBar } from "@/componentsPage/NavBar";
 import { Footer } from "./Footer";
 export const Contact = () => {
   return (
-    <div>
+    <div className="body">
       <NavBar />
+
       <div className="max-w-[1200px] mx-auto mt-[10px] mb-[150px]">
         <div className="w-full h-[670px] contact flex justify-center items-center">
-          <h1 className="text-center text-[6rem] text-white font-[700] ">
+          <h1 className="text-center text-[6rem] text-black font-[700] ">
             We are Here to for You
           </h1>
         </div>

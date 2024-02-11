@@ -1,5 +1,5 @@
 import seller from "../assets/b1.jpg";
-import funds from "../assets/b2.jpg";
+import funds from "../assets/b2.png";
 import deliver from "../assets/b3.png";
 import ecosystem from "../assets/yes.png";
 import ecosystem2 from "../assets/pay.png";
@@ -10,7 +10,7 @@ const cardProps = [
     image: seller,
   },
   {
-    decription: "Buyer submits payment to FairTrade which are converted to fairtrade coins",
+    decription: "Buyer submits payment to FairTrade escrow",
 
     image: funds,
   },
@@ -32,7 +32,7 @@ const cardProps = [
 ];
 export const CardProperties = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3 mt-4 mb-[20px] lg:mb-[30px] items-center justify-center">
+    <div className="grid grid-cols-1 max-w-[1200px] mx-auto md:grid-cols-3 lg:grid-cols-5 gap-3 mt-4 mb-[20px] lg:mb-[30px] items-center justify-center">
       {cardProps.map((item) => (
         <div
           key={item.decription}

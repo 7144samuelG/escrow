@@ -5,9 +5,9 @@ import { cn } from "@/lib/utils";
 
 export const Privancy = () => {
   return (
-    <div>
+    <div className="body">
       <NavBar />
-      <div className="max-w-[1200px] mx-auto mb-[10px] mt-[10px]">
+      <div className="max-w-[1200px] mx-auto mb-[100px] mt-[10px]">
         <h1 className="text-center text-[#752938] text-[54px] font-[400] mb-[20px] ">
           Privancy Policy
         </h1>

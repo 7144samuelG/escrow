@@ -16,6 +16,7 @@ function App() {
           <Route path="/Faqs" element={<FAQs/>}></Route>
           <Route path="/privancy" element={<Privancy/>}></Route>
           <Route path="/terms-conditions" element={<TermaConditions/>}></Route>
+         
         </Routes>
       </BrowserRouter>
   );

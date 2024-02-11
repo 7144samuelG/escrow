@@ -4,7 +4,7 @@ import { Diamond } from "lucide-react";
 
 export const AboutUs = () => {
   return (
-    <div>
+    <div className="body">
       <NavBar />
 
       <div className="max-w-[1200px] mx-auto mt-[10px] mb-[70px] ">
