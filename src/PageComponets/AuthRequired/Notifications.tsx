@@ -1,12 +1,10 @@
 import { SideBar } from "@/componentsPage/dashboard";
-import { Main } from "@/componentsPage/dashboard/main";
-import { Profile } from "@/componentsPage/dashboard/profile";
 import { cn } from "@/lib/utils";
 import { creatorSidebar } from "../../../providers/creator-sidebar";
 import { useEffect } from "react";
 import { useMediaQuery } from "usehooks-ts";
 
-export const DashBoard = () => {
+export const Notifications = () => {
   const { collapsed, onCollapse, onExpand } = creatorSidebar((state) => state);
   const matches = useMediaQuery(`(max-width: 1024px)`);
 
@@ -28,10 +26,12 @@ export const DashBoard = () => {
             collapsed ? "ml-[10px]" : "ml-[70px] lg:ml-[10px]"
           )}
         >
-            <Main />
+            <div className="text-red-500 mt-[200px] flex items-center justify-center">
+                <h1>Notifications on this page try refresshing</h1>
+            </div>
         </div>
         
-        <Profile />
+       
       </div>
     </div>
   );

@@ -1,13 +1,12 @@
-import { SideBar } from "@/componentsPage/dashboard";
-import { Main } from "@/componentsPage/dashboard/main";
-import { Profile } from "@/componentsPage/dashboard/profile";
-import { cn } from "@/lib/utils";
+import { WalletPage } from "@/componentsPage/wallet/wallet"
 import { creatorSidebar } from "../../../providers/creator-sidebar";
-import { useEffect } from "react";
 import { useMediaQuery } from "usehooks-ts";
-
-export const DashBoard = () => {
-  const { collapsed, onCollapse, onExpand } = creatorSidebar((state) => state);
+import { useEffect } from "react";
+import { SideBar } from "@/componentsPage/dashboard";
+import { cn } from "@/lib/utils";
+import { Profile } from "@/componentsPage/dashboard/profile";
+export const Wallet=()=>{
+    const { collapsed, onCollapse, onExpand } = creatorSidebar((state) => state);
   const matches = useMediaQuery(`(max-width: 1024px)`);
 
   useEffect(() => {
@@ -19,8 +18,8 @@ export const DashBoard = () => {
   }, [matches, onCollapse, onExpand]);
 
   return (
-    <div className={cn(" h-[100vh")}>
-      <div className="mx-3 flex justify-between ">
+    <div className={cn("h-[100vh] ")}>
+      <div className="max-w  mx-3 flex justify-between ">
         <SideBar />
         <div
           className={cn(
@@ -28,11 +27,10 @@ export const DashBoard = () => {
             collapsed ? "ml-[10px]" : "ml-[70px] lg:ml-[10px]"
           )}
         >
-            <Main />
+            <WalletPage />
         </div>
-        
-        <Profile />
+        <Profile/>
       </div>
     </div>
   );
-};
+}

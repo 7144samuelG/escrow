@@ -1,12 +1,11 @@
-import { SideBar } from "@/componentsPage/dashboard";
-import { Main } from "@/componentsPage/dashboard/main";
-import { Profile } from "@/componentsPage/dashboard/profile";
 import { cn } from "@/lib/utils";
 import { creatorSidebar } from "../../../providers/creator-sidebar";
 import { useEffect } from "react";
 import { useMediaQuery } from "usehooks-ts";
+import { Setting } from "@/componentsPage/settings/settings";
+import { SideBar } from "@/componentsPage/dashboard";
 
-export const DashBoard = () => {
+export const Settings = () => {
   const { collapsed, onCollapse, onExpand } = creatorSidebar((state) => state);
   const matches = useMediaQuery(`(max-width: 1024px)`);
 
@@ -19,8 +18,8 @@ export const DashBoard = () => {
   }, [matches, onCollapse, onExpand]);
 
   return (
-    <div className={cn(" h-[100vh")}>
-      <div className="mx-3 flex justify-between ">
+    <div className={cn("bg-black h-[100vh] text-white")}>
+      <div className="max-w  mx-3 flex justify-between ">
         <SideBar />
         <div
           className={cn(
@@ -28,10 +27,8 @@ export const DashBoard = () => {
             collapsed ? "ml-[10px]" : "ml-[70px] lg:ml-[10px]"
           )}
         >
-            <Main />
+          <Setting />
         </div>
-        
-        <Profile />
       </div>
     </div>
   );
