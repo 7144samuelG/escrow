@@ -20,7 +20,7 @@ const cardProps = [
     image: deliver,
   },
   {
-    decription: "Buyer approves goods or services",
+    decription: "Buyer approves the services deliverd by seller",
 
     image: ecosystem,
   },
@@ -47,7 +47,7 @@ export const CardProperties = () => {
               className="w-full h-[200px] px-2 object-contain "
             />
             <div className="">
-              <p className="px-2  w-full text-center">{item.decription}</p>
+              <p className="px-2  w-full text-center text-white">{item.decription}</p>
             </div>
           </div>
         </div>

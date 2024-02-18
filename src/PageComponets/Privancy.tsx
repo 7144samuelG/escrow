@@ -17,7 +17,7 @@ export const Privancy = () => {
           <div className="border-b-2 flex-1" />
         </div>
         <div className="px-4">
-          <p className={cn("text-[16px] text-[#333] font-[300] leading-[24px]")}>
+          <p className={cn("text-[16px] text-white font-[300] leading-[24px]")}>
             FairTrade is committed to protecting the privacy and security of
             your personal information. This Privacy Policy outlines how we
             collect, use, disclose, and safeguard your information in relation

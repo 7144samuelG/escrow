@@ -23,7 +23,7 @@ export const Footer = () => {
   });
   const handleSubmit = () => {};
   return (
-    <div className="max-w-[1200px] mx-auto px-3">
+    <div className="max-w-[1280px] mx-auto px-3">
       <div className=" h-[300px] lg:flex flex-row items-start justify-between gap-4 ">
         <div>
           <h1 className="text-yellow-300 text-4xl font-[800] mb-4 text-center lg:text-left">

@@ -5,6 +5,7 @@ import { Contact } from "./PageComponets/Contact";
 import { FAQs } from "./PageComponets/Faqs";
 import { Privancy } from "./PageComponets/Privancy";
 import { TermaConditions } from "./PageComponets/Terms&Condtions";
+import { DashBoard } from "./PageComponets/AuthRequired/Dashboard";
 function App() {
   return (
     
@@ -16,7 +17,7 @@ function App() {
           <Route path="/Faqs" element={<FAQs/>}></Route>
           <Route path="/privancy" element={<Privancy/>}></Route>
           <Route path="/terms-conditions" element={<TermaConditions/>}></Route>
-         
+         <Route path="/dashboard" element={<DashBoard/>}></Route>
         </Routes>
       </BrowserRouter>
   );

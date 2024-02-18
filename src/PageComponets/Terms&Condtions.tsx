@@ -7,7 +7,7 @@ export const TermaConditions = () => {
   return (
     <div className="body">
       <NavBar />
-      <div className="max-w-[1200px] mx-auto mt-[120px] mb-[100px] px-[30px]">
+      <div className="max-w-[1200px] mx-auto mt-[100px] mb-[100px] px-[30px]">
         <h1 className="text-center text-[#752938] text-[54px] font-[400] mb-[20px]">
           Terms & Conditions
         </h1>
@@ -16,22 +16,22 @@ export const TermaConditions = () => {
           <Diamond />
           <div className="border-b-2 flex-1" />
         </div>
-        <div className={cn("text-[16px] font-[300] text-[#333] leading-[24px] pt-4")}>
+        <div className={cn("text-[16px] font-[300] text-white leading-[24px] pt-4")}>
           <p>
-            <span className="text-[#000] text-bold">Fees:</span>
+            <span className="text-bold text-xl  text-black">Fees:</span>
             The fees for using our escrow services are outlined in our fee
             schedule. All fees are the responsibility of the party initiating
             the escrow transaction.
           </p>
           <p className="pt-4">
-            <span className="text-[#000] text-bold">Dispute Resolution:</span>
+            <span className="text-xl  text-bold text-black">Dispute Resolution:</span>
             In the event of a dispute, both parties agree to cooperate with the
             Escrow Service Provider&#39;s resolution process. If a resolution
             cannot be reached, the Escrow Service Provider may, at its
             discretion, involve third-party arbitration.
           </p>
           <p className="pt-4">
-            <span className="text-[#000] text-bold">
+            <span className="text-xl text-bold text-black">
               Cancellation and Refunds:
             </span>
             Escrow transactions cannot be canceled unilaterally once initiated.
@@ -39,7 +39,7 @@ export const TermaConditions = () => {
             outlined by the Escrow Service Provider.
           </p>
           <p className="pt-4">
-            <span className="text-[#000] text-bold">Termination:</span>
+            <span className="text-xl  text-bold text-black">Termination:</span>
             The Escrow Service Provider reserves the right to terminate or
             suspend an account at its discretion, with or without cause.
           </p>

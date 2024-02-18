@@ -20,15 +20,15 @@ export const FAQs = () => {
           <Diamond />
           <div className="border-b-2 flex-1" />
         </div>
-        <h1 className="">What is FairTrade system?</h1>
-        <p className={cn(" para px-4")}>
+        <h1 className="text-black font-semibold">What is FairTrade system?</h1>
+        <p className={cn(" para ")}>
           Is an online secure financial arrangement where a third party holds
           and regulates payment of funds between two parties involved in a
           transaction. It ensures that both parties meet their obligations
           before the funds are released.
         </p>
-        <h1> How does an FairTrade</h1>{" "}
-        <p>
+        <h1 className="text-black font-semibold"> How does an FairTrade</h1>{" "}
+        <p >
           {" "}
           The buyer and seller agree to the terms of the transaction. The buyer
           then deposits the funds into the escrow account. The seller is
@@ -36,12 +36,12 @@ export const FAQs = () => {
           parties fulfill their obligations, the funds are released to the
           seller.
         </p>
-        <h1> Is it safe to use</h1>
+        <h1 className="text-black font-semibold"> Is it safe to use</h1>
         <p>
           Yes,FairTrade employs encryption and security measures to protect the
           financial information of the parties involved.
         </p>
-        <h1>How long does the escrow process take?</h1>
+        <h1 className="text-black font-semibold">How long does the escrow process take?</h1>
         <p>
           {" "}
           The duration of the escrow process depends on the agreement between
@@ -49,7 +49,7 @@ export const FAQs = () => {
           few days to a few weeks, allowing sufficient time for both parties to
           fulfill their obligations.
         </p>
-        <h1> What happens if there is a dispute during the escrow process?</h1>
+        <h1 className="text-black font-semibold"> What happens if there is a dispute during the escrow process?</h1>
         <p>
           {" "}
           FairTrade often have dispute resolution mechanisms in place. They may
@@ -57,13 +57,13 @@ export const FAQs = () => {
           In some cases, the escrow provider may release funds according to
           predetermined conditions or involve legal authorities.
         </p>
-        <h1> Are there any fees associated with using an FairTrdae system? </h1>
+        <h1 className="text-black font-semibold"> Are there any fees associated with using an FairTrdae system? </h1>
         <p>
           Yes,. These fees can vary based on the transaction amount, the
           complexity of the deal, and additional services required. It's crucial
           to understand the fee structure before initiating an escrow.
         </p>{" "}
-        <h1> Can I cancel an escrow transaction once it's initiated?</h1>
+        <h1 className="text-black font-semibold"> Can I cancel an escrow transaction once it's initiated?</h1>
         <p>
           Escrow transactions are typically binding agreements. However, some
           services may have cancellation policies outlined in their terms and
