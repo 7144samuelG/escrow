@@ -12,7 +12,7 @@ export const NavBar = () => {
   useClickAway(ref, () => setIsOpen(false));
   const navigation = useNavigate();
   const navigate = () => {
-    navigation("/dashboard");
+    navigation("/purchase");
   };
   return (
     <div

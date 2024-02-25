@@ -5,10 +5,9 @@ import { Contact } from "./PageComponets/Contact";
 import { FAQs } from "./PageComponets/Faqs";
 import { Privancy } from "./PageComponets/Privancy";
 import { TermaConditions } from "./PageComponets/Terms&Condtions";
-import { DashBoard } from "./PageComponets/AuthRequired/Dashboard";
-import { Wallet } from "./PageComponets/AuthRequired/Wallet";
-import { Discover } from "./PageComponets/AuthRequired/Discover";
-import { Notifications } from "./PageComponets/AuthRequired/Notifications";
+import Purcharse from "./PageComponets/AuthRequired/Purchase";
+import ConfirmTransaction from "./PageComponets/AuthRequired/Confirm";
+
 function App() {
   return (
     
@@ -20,10 +19,9 @@ function App() {
           <Route path="/Faqs" element={<FAQs/>}></Route>
           <Route path="/privancy" element={<Privancy/>}></Route>
           <Route path="/terms-conditions" element={<TermaConditions/>}></Route>
-         <Route path="/dashboard" element={<DashBoard/>}></Route>
-         <Route path="/wallet" element={<Wallet/>}></Route>
-         <Route path="/discover" element={<Discover/>}></Route>
-         <Route path="/notifications" element={<Notifications/>}></Route>
+         <Route path="/purchase" element={<Purcharse/>}></Route>
+         <Route path="/confirm" element={<ConfirmTransaction/>}></Route>
+        
         </Routes>
       </BrowserRouter>
   );
